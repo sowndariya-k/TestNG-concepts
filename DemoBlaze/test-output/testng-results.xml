@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-29T06:34:42 IST" name="Default suite" finished-at="2026-04-29T06:35:18 IST" duration-ms="35600">
+    <groups>
+    </groups>
+    <test started-at="2026-04-29T06:34:42 IST" name="Default test" finished-at="2026-04-29T06:35:18 IST" duration-ms="35600">
+      <class name="com.Test.DemoBlazeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:34:46 IST" name="setup" finished-at="2026-04-29T06:34:52 IST" duration-ms="5985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:34:52 IST" name="testFlow" data-provider="excelData" finished-at="2026-04-29T06:35:01 IST" duration-ms="9419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sowndariya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sow@911!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:01 IST" name="tearDown" finished-at="2026-04-29T06:35:02 IST" duration-ms="791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlow status=SUCCESS method=DemoBlazeTest.testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:02 IST" name="setup" finished-at="2026-04-29T06:35:07 IST" duration-ms="5229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:07 IST" name="testFlow" data-provider="excelData" finished-at="2026-04-29T06:35:10 IST" duration-ms="2706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[*sk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sow@911!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalidUser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:10 IST" name="tearDown" finished-at="2026-04-29T06:35:10 IST" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlow status=SUCCESS method=DemoBlazeTest.testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:10 IST" name="setup" finished-at="2026-04-29T06:35:13 IST" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:13 IST" name="testFlow" data-provider="excelData" finished-at="2026-04-29T06:35:17 IST" duration-ms="4380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sowndariya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sownd@911]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalidPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:17 IST" name="tearDown" finished-at="2026-04-29T06:35:18 IST" duration-ms="549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlow status=SUCCESS method=DemoBlazeTest.testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.DemoBlazeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

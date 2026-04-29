@@ -1,0 +1,9 @@
+.metadata/
+test-output/
+logs/
+screenshots/
+target/
+bin/
+*.log
+*.class
+.settings/
