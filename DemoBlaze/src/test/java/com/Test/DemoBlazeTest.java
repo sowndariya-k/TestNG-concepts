@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.Utilies.DPExcel;
+import com.Utilies.ScreenshotUtil;
 import com.page.DemoLoginPage;
 import com.page.ProductPage;
 
@@ -30,7 +31,10 @@ public class DemoBlazeTest extends BaseTest {
         	    ExpectedConditions.visibilityOf(loginPage.welcomeText)
         	).getText();
         	
-            Assert.assertTrue(welcome.contains("Welcome"));
+        	if (welcome.contains("Welcome")) {
+        	    ScreenshotUtil.takeScreenshot(loginPage.welcomeText, "forced_fail_welcome");
+        	    Assert.fail("Forcing failure for testing screenshot");
+        	}
 
             productPage.selectMacbook();
             String alertMsg = productPage.addToCartAndGetAlert();

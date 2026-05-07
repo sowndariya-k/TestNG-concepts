@@ -22,6 +22,7 @@ public class ProductPage extends BasePage {
     WebElement macbook;
 
     @FindBy(linkText = "Add to cart")
+	public
     WebElement addToCart;
 
     public void selectMacbook() {

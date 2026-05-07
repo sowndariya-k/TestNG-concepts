@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-29T06:34:42 IST" name="Default suite" finished-at="2026-04-29T06:35:18 IST" duration-ms="35600">
+  <suite started-at="2026-04-29T21:10:25 IST" name="Default suite" finished-at="2026-04-29T21:11:06 IST" duration-ms="41425">
     <groups>
     </groups>
-    <test started-at="2026-04-29T06:34:42 IST" name="Default test" finished-at="2026-04-29T06:35:18 IST" duration-ms="35600">
+    <test started-at="2026-04-29T21:10:25 IST" name="Default test" finished-at="2026-04-29T21:11:06 IST" duration-ms="41425">
       <class name="com.Test.DemoBlazeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:34:46 IST" name="setup" finished-at="2026-04-29T06:34:52 IST" duration-ms="5985" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T21:10:28 IST" name="setup" finished-at="2026-04-29T21:10:35 IST" duration-ms="6998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:34:52 IST" name="testFlow" data-provider="excelData" finished-at="2026-04-29T06:35:01 IST" duration-ms="9419" status="PASS">
+        <test-method signature="testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T21:10:35 IST" name="testFlow" data-provider="excelData" finished-at="2026-04-29T21:10:44 IST" duration-ms="9834" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:01 IST" name="tearDown" finished-at="2026-04-29T06:35:02 IST" duration-ms="791" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T21:10:44 IST" name="tearDown" finished-at="2026-04-29T21:10:46 IST" duration-ms="1944" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:02 IST" name="setup" finished-at="2026-04-29T06:35:07 IST" duration-ms="5229" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T21:10:46 IST" name="setup" finished-at="2026-04-29T21:10:54 IST" duration-ms="7343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:07 IST" name="testFlow" data-provider="excelData" finished-at="2026-04-29T06:35:10 IST" duration-ms="2706" status="PASS">
+        <test-method signature="testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T21:10:54 IST" name="testFlow" data-provider="excelData" finished-at="2026-04-29T21:10:56 IST" duration-ms="2657" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:10 IST" name="tearDown" finished-at="2026-04-29T06:35:10 IST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T21:10:56 IST" name="tearDown" finished-at="2026-04-29T21:10:57 IST" duration-ms="542" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:10 IST" name="setup" finished-at="2026-04-29T06:35:13 IST" duration-ms="2633" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T21:10:57 IST" name="setup" finished-at="2026-04-29T21:11:02 IST" duration-ms="5412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:13 IST" name="testFlow" data-provider="excelData" finished-at="2026-04-29T06:35:17 IST" duration-ms="4380" status="PASS">
+        <test-method signature="testFlow(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T21:11:02 IST" name="testFlow" data-provider="excelData" finished-at="2026-04-29T21:11:05 IST" duration-ms="3051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T06:35:17 IST" name="tearDown" finished-at="2026-04-29T06:35:18 IST" duration-ms="549" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.Test.DemoBlazeTest@443118b0]" started-at="2026-04-29T21:11:05 IST" name="tearDown" finished-at="2026-04-29T21:11:06 IST" duration-ms="693" status="PASS">
           <params>
             <param index="0">
               <value>
