@@ -71,7 +71,7 @@ public class LoginStepDefinition {
 
         String title = driver.getTitle();
 
-        if (!title.contains("My Account")) {
+        if (!title.contains("MyAccount")) {
 
             throw new AssertionError("Login failed");
         }
